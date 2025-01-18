@@ -1,6 +1,7 @@
 #include <iostream>
 #include "StoreManager.h"
 #include "MaintenanceSwitch.h"
+#include "TransactionSwitch.h"
 
 using namespace std;
 
@@ -23,7 +24,7 @@ int main() {
             MaintenanceSwitch(store);
             break;
         case 2:
-            cout << "Transaction Switch to be added!" << endl;
+            TransactionSwitch(store);
             break;
         case 3: exit(0);
         default: cout << "Wrong choice!" << endl;
