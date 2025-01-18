@@ -33,3 +33,11 @@
 *.exe
 *.out
 *.app
+
+# Ignore project specific folders and files 
+.store/ 
+x64/ 
+store.sln 
+store.vcxproj 
+store.vcxproj.filters 
+store.vcxproj.user
