@@ -1,8 +1,10 @@
 #include <iostream>
+#include "StoreManager.h"
 
 using namespace std;
 
 int main() {
+    StoreManager store;
     int choice;
     do {
         cout << endl;
