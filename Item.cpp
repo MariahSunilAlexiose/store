@@ -1,7 +1,7 @@
 #include "Item.h"
 
 Item::Item() {
-    id = 0;
+    id = 1;
     name = "";
     price = 0;
     quantity = 0;

@@ -1,7 +1,7 @@
 #include "StoreManager.h"
 
 StoreManager::StoreManager() {
-    customID = 0;
+    customID = 1;
     numberOfItems = 0;
     top = -1;
 }
